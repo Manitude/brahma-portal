@@ -1,0 +1,24 @@
+/*
+ *
+ * App constants
+ *
+ */
+
+export const DEFAULT_ACTION = 'app/App/DEFAULT_ACTION';
+export const USER_STATE = {
+  INITIAL: 'app/App/USER_STATE/INITIAL',
+  LOGGING_IN: 'app/App/USER_STATE/LOGGING_IN',
+  LOGGED_IN: 'app/App/USER_STATE/LOGGED_IN',
+
+  /* Access token states */
+  GET_ACCESS_TOKEN: 'app/App/USER_STATE/GET_ACCESS_TOKEN',
+  ACCESS_TOKEN_AUTHENTICATED: 'app/App/USER_STATE/ACCESS_TOKEN_AUTHENTICATED',
+  ACCESS_TOKEN_INVALID: 'app/App/USER_STATE/ACCESS_TOKEN_INVALID',
+  /* Access token states */
+
+  /* User profile states */
+  GET_USER_PROFILE: 'app/App/USER_STATE/GET_USER_PROFILE',
+  GET_USER_PROFILE_SUCCESS: 'app/App/USER_STATE/GET_USER_PROFILE_SUCCESS',
+  GET_USER_PROFILE_FAILURE: 'app/App/USER_STATE/GET_USER_PROFILE_FAILURE',
+  /* User profile states */
+};
